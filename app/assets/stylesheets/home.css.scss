@@ -5,19 +5,19 @@
     border: 1px solid;
   }
 
-  .slice-1 {
+  .slice-0 {
     @extend .slice;
 
     background-color: $color-serious-green;
   }
 
-  .slice-2 {
+  .slice-1 {
     @extend .slice;
 
     background-color: $color-backoff-beige;
   }
 
-  .slice-3 {
+  .slice-2 {
     @extend .slice;
 
     background-color: $color-nudging-orange;
