@@ -1,0 +1,8 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "colors";
+@import "home";
+
+body {
+  background-color: $color-worldly-blue;
+}

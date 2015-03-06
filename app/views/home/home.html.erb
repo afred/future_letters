@@ -1,0 +1,12 @@
+<div class="row homeslices">
+  <div class="col-md-12">
+    <% @slices.each_with_index do |slice, i| %>
+      <div class="row slice<%= "-#{i.to_s}" %>">
+        <div class="col-md-12">
+          <%= render partial: slice[:id] %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
+
